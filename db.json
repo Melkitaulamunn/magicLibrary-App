@@ -1,0 +1,38 @@
+{
+    "books":[{
+        "id":"1",
+        "title":"momo",
+        "yazar":"Micheal Ende",
+        "yayın evi":"pegasus",
+        "fiyat":"70",
+        "categoryId":"1"
+
+    },
+    {
+        "id":"2",
+        "title":"Herşeyi Düşünme",
+        "yazar":"Anne Bogel",
+        "yayın evi":"serenad",
+        "fiyat":"90",
+        "categoryId":"2"
+
+    }
+        
+        
+    ],
+    "categories":[
+        {
+            "id":"1",
+            "name":"roman"
+        },
+        {
+            "id":"2",
+            "name":"kişisel gelişim"
+        },
+        {
+            "id":"3",
+            "name":"hikaye"
+        }
+
+    ]
+}
