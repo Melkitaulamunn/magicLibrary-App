@@ -1,0 +1,16 @@
+1. öncelikle react kurulumu gerçekleştirildi
+2. Sonrasında gereksiz dosyalar silindi ve app.js ve index.js temizlendi.
+db.json dosyası oluşturuldu. json server yapısı kuruldu.
+3. dependencies:
+     * jsonserver
+     * react redux
+     * redux
+     * axios
+     * UI kütüphanesi olarak bootstrap eklendi
+     * react-router-dom
+     kuruldu.
+4. redux klasörü içinde actions ve reducers klasörleri oluşrturuldu.
+      * actions klasörünün içine actionTypes dosyası oluşturularak type lar tanımlandı.
+      * reducers ın içerisinde iki reducer sayfası oluşruldu.
+      *store.js sayfası oluşturldu stateler reducerlarla tanımlandı.
+5. pages klasörü oluşturularak home , not found sayfaları oluşruruldu app.js de router dom kullAnılarak route tanımlamaları yapıldı.
