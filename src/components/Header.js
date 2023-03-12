@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-primary-tertiary  bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" to={"./"}>
+          <Link className="navbar-brand" to={"/"}>
             Library
           </Link>
           <button

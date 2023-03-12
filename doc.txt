@@ -14,3 +14,6 @@ db.json dosyası oluşturuldu. json server yapısı kuruldu.
       * reducers ın içerisinde iki reducer sayfası oluşruldu.
       *store.js sayfası oluşturldu stateler reducerlarla tanımlandı.
 5. pages klasörü oluşturularak home , not found sayfaları oluşruruldu app.js de router dom kullAnılarak route tanımlamaları yapıldı.
+6. header companenti bootstrapten alınan navbar la oluşrturuldu
+7. Useeffect le uygulama ilk açılırken kitaplar ve kategorilerin biilgileri çekilip statelere yüklendi.
+8. erken kaçış satırları için durumlar reduxtan alındı.

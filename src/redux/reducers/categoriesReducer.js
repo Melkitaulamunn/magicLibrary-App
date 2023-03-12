@@ -9,6 +9,7 @@ const initialState = {
 const categoryReducer = (state = initialState, action) => {
   switch (action.type) {
     case actionTypes.categoryActions.GET_CATEGORIES_START:
+      console.log("BAŞLANGIÇ");
       return {
         ...state,
         pending: true,
