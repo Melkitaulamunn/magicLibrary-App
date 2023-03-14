@@ -1,11 +1,12 @@
 import React from "react";
 
 import Header from "../components/Header";
+import ListBooks from "../components/ListBooks";
 const Home = () => {
   return (
     <div>
       <Header />
-      <h1>Ana Sayfa</h1>
+      <ListBooks />
     </div>
   );
 };

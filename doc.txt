@@ -17,3 +17,6 @@ db.json dosyası oluşturuldu. json server yapısı kuruldu.
 6. header companenti bootstrapten alınan navbar la oluşrturuldu
 7. Useeffect le uygulama ilk açılırken kitaplar ve kategorilerin biilgileri çekilip statelere yüklendi.
 8. erken kaçış satırları için durumlar reduxtan alındı.
+9.listbooks adında bi companent oluşturup anasayfada yayınladık liste halinde kitapları. bunun yaparken UseSelector ile statelere subscripe olduk. verileri maple listeledik.Kullandığımız tablo ve buton grubu bootstraptan aldık.
+
+10.upperFirstLetter fonksiyonu oluşturulup , kullanıcının girdiği kelimelerin hepsi ilki büyük harf diğerleri küçük harf olacak şekilde cümlelere dönüştürüyor. ve bu oluşturduğumuz fonksiyon import ederek listBook ta istediğimiz her yerde kullanıyoruz.
