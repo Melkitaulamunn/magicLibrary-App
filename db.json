@@ -5,6 +5,7 @@
         "yazar":"Micheal Ende",
         "yayın evi":"pegasus",
         "fiyat":"70",
+        "isbn":"9789759893743",
         "categoryId":"1"
 
     },
@@ -14,6 +15,7 @@
         "yazar":"Anne Bogel",
         "yayın evi":"serenad",
         "fiyat":"90",
+        "isbn":"9789759893743",
         "categoryId":"2"
 
     }

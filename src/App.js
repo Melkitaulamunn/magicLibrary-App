@@ -12,6 +12,7 @@ import urls from "./api/urls";
 import actionTypes from "./redux/actions/actionTypes";
 import Loading from "./components/Loading";
 import Error from "./components/Error";
+import AddBook from "./pages/AddBook";
 
 function App() {
   const { booksState, categoriesState } = useSelector((state) => state);
@@ -68,6 +69,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/add-book" element={<AddBook />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>

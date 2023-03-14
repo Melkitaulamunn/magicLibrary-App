@@ -20,3 +20,10 @@ db.json dosyası oluşturuldu. json server yapısı kuruldu.
 9.listbooks adında bi companent oluşturup anasayfada yayınladık liste halinde kitapları. bunun yaparken UseSelector ile statelere subscripe olduk. verileri maple listeledik.Kullandığımız tablo ve buton grubu bootstraptan aldık.
 
 10.upperFirstLetter fonksiyonu oluşturulup , kullanıcının girdiği kelimelerin hepsi ilki büyük harf diğerleri küçük harf olacak şekilde cümlelere dönüştürüyor. ve bu oluşturduğumuz fonksiyon import ederek listBook ta istediğimiz her yerde kullanıyoruz.
+
+11. Butonlar için özelliklerini propla gönderdiğimiz bir comapanent oluşturduk
+
+12. AddBook:
+    * bu sayfada kullanıcıdan alınan kitap bilgileri server'a gönderilip kaydediidi.
+    * bunun için bir form oluşturuldu.
+    * alınan bilgiler server'a başarıyla kaydedildikten sonra aynı ekleme işlemi STORE'A DA YAPILDI.
