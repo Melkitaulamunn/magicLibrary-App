@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { upperFirstLetter, upperFirstLetter2 } from "../utils/function";
-
+import Button from "./Button";
 const ListBooks = () => {
   const { booksState, categoriesState } = useSelector((state) => state);
 
@@ -43,15 +43,17 @@ const ListBooks = () => {
                         role="group"
                         aria-label="Basic example"
                       >
-                        <button type="button" className="btn btn-secondary">
-                          Detay
-                        </button>
-                        <button type="button" className="btn btn-danger">
-                          Sil
-                        </button>
-                        <button type="button" className="btn btn-warning">
-                          Güncelle
-                        </button>
+                        <Button
+                          className="btn-sm"
+                          text="Detay"
+                          type="secondary"
+                        />
+                        <Button className="btn-sm" text="Sil" type="danger" />
+                        <Button
+                          className="btn-sm"
+                          text="Güncelle"
+                          type="warning"
+                        />
                       </div>
                     </td>
                   </tr>
